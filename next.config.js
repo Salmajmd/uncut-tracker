@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: ['srxjkxxuhulqpmtxedbl.supabase.co'],
   },
-  // PWA Configuration
   async headers() {
     return [
       {
